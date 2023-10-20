@@ -8,11 +8,14 @@ function Formation() {
         <section className="section-formation">
             <h1 className="title-education">Educação</h1>
             <div className="card-education">
-                <div className="card-education-date"><span><GiGraduateCap />2023</span></div>
-                <div className="card-education-info">Web Full-stack em formação Labenu</div>
+                <div className="card-education-date"><span><GiGraduateCap /> 2022-2023</span></div>
+                <div className="card-education-info">Desenvolvedora Full-Stack</div>
+                <div className="card-education-info">Análise e desenvolvimento de sistemas - Cursando</div>
             </div>
             <h1 className="title-experience">Experiência</h1>
             <div className="card-experience">
+                <div className="card-experience-date"><span><FaBriefcase /> 2022-2023</span></div>
+                <div className="card-experience-info">Experiência prática em diversos projetos Full-Stack</div>
                 <div className="card-experience-date"><span><FaBriefcase /> 2019 - 2022</span></div>
                 <div className="card-experience-info">Enfermeira</div>
             </div>

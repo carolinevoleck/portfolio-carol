@@ -8,10 +8,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #FAD961;
 background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
         width: 100%;
         min-height: 100px;
+        box-shadow: 0 0 5.5rem rgba(255, 105, 280, 0.8),
+        0 0 5.5rem rgba(255, 105, 280, 0.8),
+        0 0 5.5rem rgba(255, 105, 280, 0.8);
+animation: neon 10s linear infinite;
     }
 
     .icons-container {
@@ -88,6 +91,10 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
 background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
       width: 100%;
       min-height: 100px;
+      box-shadow: 0 0 5.5rem rgba(255, 105, 280, 0.8),
+      0 0 5.5rem rgba(255, 105, 280, 0.8),
+      0 0 5.5rem rgba(255, 105, 280, 0.8);
+animation: neon 10s linear infinite;
   }
 
   .icons-container {
@@ -163,6 +170,10 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
 background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
       width: 100%;
       min-height: 100px;
+      box-shadow: 0 0 5.5rem rgba(255, 105, 280, 0.8),
+      0 0 5.5rem rgba(255, 105, 280, 0.8),
+      0 0 5.5rem rgba(255, 105, 280, 0.8);
+animation: neon 10s linear infinite;
   }
 
   .icons-container {
@@ -238,6 +249,10 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
 background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
       width: 100%;
       min-height: 100px;
+      box-shadow: 0 0 5.5rem rgba(255, 105, 280, 0.8),
+      0 0 5.5rem rgba(255, 105, 280, 0.8),
+      0 0 5.5rem rgba(255, 105, 280, 0.8);
+animation: neon 10s linear infinite;
   }
 
   .icons-container {
@@ -573,34 +588,63 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
   /* Estilos para dispositivos com tela maior que 1200px */
   @media (min-width: 1200px) {
     /* Estilos para dispositivos maiores, como desktops */
+    
+    @keyframes neon {
+      0% {
+        box-shadow: 0 0 5.5rem rgba(255, 105, 280, 0.5),
+                    0 0 5.5rem rgba(255, 105, 280, 0.5),
+                    0 0 5.5rem rgba(255, 105, 280, 0.5);
+      }
+      50% {
+        box-shadow: 0 0 5.5rem rgba(255, 105, 280, 0.8),
+                    0 0 5.5rem rgba(255, 105, 280, 0.8),
+                    0 0 5.5rem rgba(255, 105, 280, 0.8);
+      }
+      100% {
+        box-shadow: 0 0 5.5rem rgba(255, 105, 280, 0.5),
+                    0 0 5.5rem rgba(255, 105, 280, 0.5),
+                    0 0 5.5rem rgba(255, 105, 280, 0.5);
+      }
+    }
+    
     .header-container {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #FAD961;
-background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
+      background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
       width: 100%;
       min-height: 115px;
-  }
+      box-shadow: 0 0 5.5rem rgba(255, 105, 280, 0.8),
+                  0 0 5.5rem rgba(255, 105, 280, 0.8),
+                  0 0 5.5rem rgba(255, 105, 280, 0.8);
+      animation: neon 10s linear infinite;
+    }
+    
+    
 
   .icons-container {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-left: 20px;
+    
   }
   
   .fa-github {
     font-size: 52px;
+    
+    
   }
 
   .fa-github :hover {
     transform: scale(1.0); /* aumenta o tamanho em 10% ao passar o mouse */
     transition: all 0.3s ease-in-out;
+    
   }
 
   .fa-linkedin {
     font-size: 52px;
+    
   }
 
   .header-container a {
@@ -608,6 +652,7 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
       color: white;
       margin: 2px;
       font-family: 'Montserrat';
+      
   }
   
   .home-header {
@@ -617,6 +662,7 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
       border-radius: 10px;
       transform: scale(1.0); /* aumenta o tamanho em 10% ao passar o mouse */
       transition: all 0.3s ease-in-out;
+     
   }
 
   .box {
@@ -632,6 +678,7 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
     background: transparent;
     text-transform: uppercase;
     border: 0.5px solid #ffffff;
+    
   }
   
   .box:before {
@@ -685,6 +732,7 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
     outline: none;
     border: none;
     background: transparent;
+    
   }
 
 
@@ -710,6 +758,7 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
       background: transparent;
       text-transform: uppercase;
       border: 0.5px solid #ffffff;
+      
     }
     
     .box:before {
@@ -840,6 +889,7 @@ background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
       outline: none;
       border: none;
       background: transparent;
+      
     }
     
     .contact-header {

@@ -22,7 +22,7 @@ function Header() {
                     <nav className="home-header">Início</nav>
                 </Link>
                 <Link to="/projects" className="box">
-                    <nav className="projects-header">Projectos</nav>
+                    <nav className="projects-header">Projetos</nav>
                 </Link>
                 <Link to="/cv" className="box">
                     <nav className="cv-header">CV</nav>

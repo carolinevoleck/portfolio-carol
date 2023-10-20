@@ -9,7 +9,7 @@ export const dataProjects = [
         name: 'Galáxia Tech',
         img: galaxyTech,
         content: ['React'],
-        deployLink: 'caroline-projeto-front-end-galaxiatech.surge.sh',
+        deployLink: 'https://caroline-projeto-front-end-galaxiatech.surge.sh/',
         codeLink: 'https://github.com/carolinevoleck/projeto-frontendreact_carolinevoleck/tree/main',
         language: 'javascript',
         lib: 'React',

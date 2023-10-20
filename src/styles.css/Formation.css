@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-/* Estilos para celulares com largura de tela menor que 576px */
-@media (max-width: 575.98px) {
+/* Estilos para celulares com largura de tela menor que 36rem */
+@media (max-width: 35.9988rem) {
     /* Estilos para dispositivos móveis */
     body {
         background-color: rgb(248, 248, 255);
@@ -15,26 +15,31 @@
       align-items: center;
       justify-content: center;
       background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
+      box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+      border-radius: 0.625rem;
       color: white;
       font-family: 'Lato', sans-serif;
-      border-radius: 20px;
+      border-radius: 1.25rem;
     }
     
     .card-education span,
     .card-experience span {
       font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 10px;
+      font-size: 1.125rem;
+      margin-bottom: 0.625rem;
     }
     
     .card-education div,
     .card-experience div {
-      text-align: center;
-      font-size: 16px;
+      font-size: 1.375rem;
+      display: flex;
+      max-width: 100%;
+      width: 90%;
+      margin: 0 auto;
+      font-family: 'Montserrat';
+      text-align: justify;
     }
     
     .title-education {
@@ -47,7 +52,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
          
-          font-size: 30px;
+          font-size: 1.875rem;
     }
     
     .title-experience {
@@ -59,7 +64,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
           
-          font-size: 30px;
+          font-size: 1.875rem;
     }
     
     .card-education-date,
@@ -75,12 +80,13 @@
     
     .card-education-info,
     .card-experience-info {
-      margin-left: 10px;
+      margin-left: 0.625rem;
+      justify-content: center;
     }
   }
   
-  /* Estilos para dispositivos com tela maior que 576px e menor que 768px */
-  @media (min-width: 576px) and (max-width: 767.98px) {
+  /* Estilos para dispositivos com tela maior que 36rem e menor que 48rem */
+  @media (min-width: 36rem) and (max-width: 47.9988rem) {
     /* Estilos para dispositivos móveis e tablets em modo retrato */
     body {
         background-color: rgb(248, 248, 255);
@@ -94,26 +100,31 @@
       align-items: center;
       justify-content: center;
       background-image: linear-gradient(90deg,#f273a8 0%, #f71cae 100%);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
+      box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+      border-radius: 0.625rem;
       color: white;
       font-family: 'Lato', sans-serif;
-      border-radius: 20px;
+      border-radius: 1.25rem;
     }
     
     .card-education span,
     .card-experience span {
       font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 10px;
+      font-size: 1.125rem;
+      margin-bottom: 0.625rem;
     }
     
     .card-education div,
     .card-experience div {
-      text-align: center;
-      font-size: 16px;
+      font-size: 1.375rem;
+      display: flex;
+      max-width: 100%;
+      width: 90%;
+      margin: 0 auto;
+      font-family: 'Montserrat';
+      text-align: justify;
     }
     
     .title-education {
@@ -126,7 +137,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
           
-          font-size: 30px;
+          font-size: 1.875rem;
     }
     
     .title-experience {
@@ -138,7 +149,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
           
-          font-size: 30px;
+          font-size: 1.875rem;
     }
     
     .card-education-date,
@@ -154,12 +165,13 @@
     
     .card-education-info,
     .card-experience-info {
-      margin-left: 10px;
+      margin-left: 0.625rem;
+      justify-content: center;
     }
   }
   
-  /* Estilos para dispositivos com tela maior que 768px e menor que 992px */
-  @media (min-width: 768px) and (max-width: 991.98px) {
+  /* Estilos para dispositivos com tela maior que 48rem e menor que 62rem */
+  @media (min-width: 48rem) and (max-width: 61.9988rem) {
     /* Estilos para tablets em modo paisagem e dispositivos móveis com tela maior */
     body {
         background-color: rgb(248, 248, 255);
@@ -173,26 +185,31 @@
       align-items: center;
       justify-content: center;
       background-image: linear-gradient(90deg,#f273a8 0%, #f71cae 100%);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
+      box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+      border-radius: 0.625rem;
       color: white;
       font-family: 'Lato', sans-serif;
-      border-radius: 20px;
+      border-radius: 1.25rem;
     }
     
     .card-education span,
     .card-experience span {
       font-weight: bold;
-      font-size: 22px;
-      margin-bottom: 10px;
+      font-size: 1.375rem;
+      margin-bottom: 0.625rem;
     }
     
     .card-education div,
     .card-experience div {
-      text-align: center;
-      font-size: 20px;
+      font-size: 1.375rem;
+      display: flex;
+      max-width: 100%;
+      width: 90%;
+      margin: 0 auto;
+      font-family: 'Montserrat';
+      text-align: justify;
     }
     
     .title-education {
@@ -205,7 +222,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
           
-          font-size: 40px;
+          font-size: 2.5rem;
     }
     
     .title-experience {
@@ -217,7 +234,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
           
-          font-size: 40px;
+          font-size: 2.5rem;
     }
     
     .card-education-date,
@@ -233,12 +250,13 @@
     
     .card-education-info,
     .card-experience-info {
-      margin-left: 10px;
+      margin-left: 0.625rem;
+      justify-content: center;
     }
   }
   
-  /* Estilos para dispositivos com tela maior que 992px e menor que 1200px */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Estilos para dispositivos com tela maior que 62rem e menor que 75rem */
+  @media (min-width: 62rem) and (max-width: 74.9988rem) {
     /* Estilos para dispositivos maiores, como laptops */
     body {
         background-color: rgb(248, 248, 255);
@@ -252,26 +270,31 @@
       align-items: center;
       justify-content: center;
       background-image: linear-gradient(90deg, #f273a8 0%, #f71cae 100%);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
+      box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+      border-radius: 0.625rem;
       color: white;
       font-family: 'Lato', sans-serif;
-      border-radius: 20px;
+      border-radius: 1.25rem;
     }
     
     .card-education span,
     .card-experience span {
       font-weight: bold;
-      font-size: 26px;
-      margin-bottom: 10px;
+      font-size: 1.625rem;
+      margin-bottom: 0.625rem;
     }
     
     .card-education div,
     .card-experience div {
-      text-align: center;
-      font-size: 22px;
+      font-size: 1.375rem;
+      display: flex;
+      max-width: 100%;
+      width: 90%;
+      margin: 0 auto;
+      font-family: 'Montserrat';
+      text-align: justify;
     }
     
     .title-education {
@@ -284,7 +307,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
           
-          font-size: 45px;
+          font-size: 2.8125rem;
     }
     
     .title-experience {
@@ -296,7 +319,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
     
-          font-size: 45px;
+          font-size: 2.8125rem;
     }
     
     .card-education-date,
@@ -312,12 +335,13 @@
     
     .card-education-info,
     .card-experience-info {
-      margin-left: 10px;
+      margin-left: 0.625rem;
+      justify-content: center;
     }
   }
   
-  /* Estilos para dispositivos com tela maior que 1200px */
-  @media (min-width: 1200px) {
+  /* Estilos para dispositivos com tela maior que 75rem */
+  @media (min-width: 75rem) {
     /* Estilos para dispositivos maiores, como desktops */
     body {
         background-color: rgb(248, 248, 255);
@@ -331,25 +355,33 @@
       align-items: center;
       justify-content: center;
       background-image: linear-gradient(90deg,#f273a8 0%, #f71cae 100%);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 20px;
+      box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+      border-radius: 1.25rem;
       color: white;
       font-family: 'Lato', sans-serif;
+      
     }
     
     .card-education span,
     .card-experience span {
       font-weight: bold;
-      font-size: 26px;
-      margin-bottom: 10px;
+      font-size: 1.625rem;
+      margin-bottom: 0.625rem;
+      
     }
     
     .card-education div,
     .card-experience div {
-      text-align: center;
-      font-size: 22px;
+      
+      font-size: 1.375rem;
+      display: flex;
+      max-width: 100%;
+      width: 90%;
+      margin: 0 auto;
+      font-family: 'Montserrat';
+      text-align: justify;
     }
     
     .title-education {
@@ -362,7 +394,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
          
-          font-size: 38px;
+          font-size: 2.375rem;
     }
     
     .title-experience {
@@ -374,7 +406,7 @@
           color: transparent;
           -webkit-text-fill-color: transparent;
           
-          font-size: 38px;
+          font-size: 2.375rem;
     }
     
     .card-education-date,
@@ -394,7 +426,8 @@
       max-width: 80%;
       font-family: 'Montserrat';
       text-align: justify;
-      line-height: 35px;
+      line-height: 2.1875rem;
+      justify-content: center;
       
     }
   }

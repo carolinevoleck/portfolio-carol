@@ -21,7 +21,7 @@ function Footer() {
                     <FaLinkedin className="fa-linkedin"/>
                 </a>
             </div>
-            <h4 className="assignature">© 2023 Caroline Voleck - All rights reserved</h4>
+            <h4 className="assignature"> © 2023 Caroline Voleck - All rights reserved</h4>
                
         </section>
     );

@@ -28,7 +28,7 @@ function AboutMe() {
                 <p className="about-p">
                     <Typewriter
                     options={{
-                        strings:["Desenvolvedora Front End"],
+                        strings:["Desenvolvedora Full Stack"],
                         autoStart: true,
                         loop: true,
                     
@@ -36,7 +36,13 @@ function AboutMe() {
                     />
                     </p> 
                     
-                <p className="about-p">Formada pelo bootcamp da Labenu. Possuo experiência prática em projetos que envolvem diversas tecnologias, como JavaScript, React, TypeScript, NodeJS, SQL, entre outras. E nesta oportunidade tive o primeiro contato com a área de programação, e fiquei apaixonada pela ideia de criar soluções através do desenvolvimento de software. E com o passar do tempo, isso me fez perceber que gostaria de me dedicar profissionalmente ao desenvolvimento web.
+                <p className="about-p">Formada pelo bootcamp da Labenu,
+                 adquiri experiência prática em projetos que abrangem uma ampla gama de tecnologias,
+                  incluindo JavaScript, React, TypeScript, NodeJS, SQL, entre outras. Foi nesse cenário
+                   que tive meu primeiro contato com o mundo da programação, e desde então, me apaixonei
+                    pela ideia de criar soluções inovadoras por meio do desenvolvimento de software. 
+                    Com o passar do tempo, essa paixão me fez perceber que meu caminho profissional estava 
+                    definitivamente no desenvolvimento web.
                 </p>
             </section>
         </main>
