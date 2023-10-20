@@ -2,6 +2,7 @@ import galaxyTech from '../assets/project-images/galaxyTech.png';
 import rickAndMorty from '../assets/project-images/rickAndMorty.png';
 import pokeApi from '../assets/project-images/pokeApi.png';
 import ladingPage from '../assets/project-images/ladingPage.png';
+import apireceita from '../assets/project-images/apireceita.png';
 
 
 export const dataProjects = [
@@ -41,5 +42,14 @@ export const dataProjects = [
         codeLink: 'https://github.com/carolinevoleck/projeto-landing-page_carolinevoleck',
         language: 'javascript',
         lib: '',
+    },
+    {   id: 5,
+        name: 'GetFood',
+        img: apireceita,
+        content: ['React'],
+        deployLink: 'https://api-receita-getfood.surge.sh/',
+        codeLink: 'https://github.com/carolinevoleck/api-receita',
+        language: 'javascript',
+        lib: 'React',
     }
 ];
