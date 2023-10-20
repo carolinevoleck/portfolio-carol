@@ -1,0 +1,61 @@
+.main-about-me {
+  
+  background: -webkit-linear-gradient(left top, #a00562, #525252);
+  background: -moz-linear-gradient(left top, #0b0b0b, #0a0808);
+  background: -o-linear-gradient(left top, #1a1818b0, #9e0b3c);
+  background: -ms-linear-gradient(left top, #c723a6, #525252);
+  background: linear-gradient(to right bottom, #000000, #982b61);
+  -webkit-animation: snowy 15s linear infinite;
+  -moz-animation: snowy 15s linear infinite;
+  -o-animation: snowy 10s linear infinite;
+  -ms-animation: snowy 15s linear infinite;
+  animation: snowy 15s linear infinite;
+}
+
+@-moz-keyframes snowy {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  75% {
+    background-position: 325px 750px, 275px 600px, -5px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 0px 300px;
+  }
+}
+
+@-webkit-keyframes snowy {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  75% {
+    background-position: 325px 750px, 275px 600px, -5px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 0px 300px;
+  }
+}
+
+@-o-keyframes snowy {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  75% {
+    background-position: 325px 750px, 275px 600px, -5px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 0px 300px;
+  }
+}
+
+@keyframes snowy {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  75% {
+    background-position: 325px 750px, 275px 600px, -5px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 0px 300px;
+  }
+}

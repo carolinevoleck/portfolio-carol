@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Typewriter from "typewriter-effect";
 import avatar from '../assets/images/avatar.png';
 import Footer from '../components/Footer';
+import '../styles.css/Cv.css'
 
 function Cv() {
     return (

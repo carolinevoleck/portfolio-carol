@@ -455,6 +455,7 @@
     padding: 12px;
     background-color: #FFFFFF;
     outline: none;
+    border: none;
   }
   
   .input-name {

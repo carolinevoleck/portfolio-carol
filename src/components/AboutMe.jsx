@@ -6,7 +6,9 @@ import Typewriter from "typewriter-effect";
 function AboutMe() {
 
     return(
+        
         <main className="main-about-me">
+            
             <div className="img-container">
                 <img 
                     className="hero-photo"
