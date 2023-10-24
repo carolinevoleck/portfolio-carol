@@ -41,7 +41,7 @@ export const dataProjects = [
         deployLink: 'https://ill-store.surge.sh/',
         codeLink: 'https://github.com/carolinevoleck/projeto-landing-page_carolinevoleck',
         language: 'javascript',
-        lib: '',
+        lib: 'Dom',
     },
     {   id: 5,
         name: 'GetFood',
