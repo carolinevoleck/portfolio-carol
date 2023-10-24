@@ -41,10 +41,10 @@ function Skills() {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 100,
+    autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 0,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

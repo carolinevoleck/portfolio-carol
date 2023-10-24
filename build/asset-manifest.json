@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.c376bf78.css",
-    "main.js": "/static/js/main.2118a079.js",
+    "main.css": "/static/css/main.8af012fd.css",
+    "main.js": "/static/js/main.0cec3662.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/apireceita.png": "/static/media/apireceita.e9e516f01f7bde5bef74.png",
     "static/media/galaxyTech.png": "/static/media/galaxyTech.064bed944648549696e1.png",
     "static/media/rickAndMorty.png": "/static/media/rickAndMorty.6870d1ba5c3941092590.png",
     "static/media/ladingPage.png": "/static/media/ladingPage.26a285cf5db6ef633190.png",
-    "static/media/guilherme-photo.jpeg": "/static/media/guilherme-photo.7e8da9eccc8331d611ea.jpeg",
     "static/media/avatar.png": "/static/media/avatar.8a0b5c22b78a7aa125cf.png",
+    "static/media/guilherme-photo.jpeg": "/static/media/guilherme-photo.8a5c14eba6b47f7433ed.jpeg",
     "static/media/pokeApi.png": "/static/media/pokeApi.bc7f117d49e131479bcd.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.c376bf78.css.map": "/static/css/main.c376bf78.css.map",
-    "main.2118a079.js.map": "/static/js/main.2118a079.js.map",
+    "main.8af012fd.css.map": "/static/css/main.8af012fd.css.map",
+    "main.0cec3662.js.map": "/static/js/main.0cec3662.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c376bf78.css",
-    "static/js/main.2118a079.js"
+    "static/css/main.8af012fd.css",
+    "static/js/main.0cec3662.js"
   ]
 }
