@@ -37,11 +37,12 @@ function Skills() {
   const settings = {
     dots: false,
     infinite: true,
-    speed:4000,
+    speed:1000,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
+    pauseOnFocus: false,
     responsive: [
       {
         breakpoint: 768,

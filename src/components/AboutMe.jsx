@@ -40,7 +40,8 @@ function AboutMe() {
                     
                 <p className="about-p">Formada pelo bootcamp da Labenu,
                  adquiri experiência prática em projetos que abrangem uma ampla gama de tecnologias,
-                  incluindo JavaScript, React, TypeScript, NodeJS, SQL, entre outras. Foi nesse cenário
+                  incluindo JavaScript, React, TypeScript, NodeJS, SQL, Express, API REST, MySQL, 
+                  MongoDB entre outras. Foi nesse cenário
                    que tive meu primeiro contato com o mundo da programação, e desde então, me apaixonei
                     pela ideia de criar soluções inovadoras por meio do desenvolvimento de software. 
                     Com o passar do tempo, essa paixão me fez perceber que meu caminho profissional estava 

@@ -3,7 +3,9 @@ import Header from '../components/Header';
 import Typewriter from "typewriter-effect";
 import avatar from '../assets/images/avatar.png';
 import Footer from '../components/Footer';
-import '../styles.css/Cv.css'
+import '../styles.css/Cv.css';
+import '../styles.css/Download.css';
+import Download from '../components/Download';
 
 function Cv() {
     return (
@@ -66,14 +68,14 @@ function Cv() {
             <div className="card-experience">
                 <div className="card-experience-date">
                 </div>
-                <div className="card-experience-info">Labenu programa com mais de 1000 horas de
+                <div className="card-experience-info">Bootcamp - Labenu programa com mais de 1000 horas de
                  experiência prática em desenvolvimento Full-stack, guiadas por metodologias ágeis (Kanban/Scrum).
                 </div>
             </div>
             <div className="card-experience">
                 <div className="card-experience-date">
                 </div>
-                <div className="card-experience-info">Design (UX) em formação pelo Google.
+                <div className="card-experience-info">Curso - Design (UX) em formação pelo Google.
                  Designers de experiência do usuário (UX) têm como foco a experiência de usuários 
                  que utilizam produtos como sites, apps e objetos físicos. Eles tornam essas interações 
                  diárias práticas, agradáveis e acessíveis.
@@ -83,7 +85,7 @@ function Cv() {
             <div className="card-experience">
                 <div className="card-experience-date">
                 </div>
-                <div className="card-experience-info">Análise e desenvolvimento de sistemas, desempenha 
+                <div className="card-experience-info">Cursando - Análise e desenvolvimento de sistemas, desempenha 
                 um papel fundamental em empresas e organizações modernas. Profissionais bem treinados 
                 em Análise e Desenvolvimento de Sistemas são essenciais para criar e manter sistemas de 
                 software eficientes e seguros.
@@ -94,16 +96,21 @@ function Cv() {
             <div className="card-experience">
                 <div className="card-experience-date">
                 </div>
-                <div className="card-experience-info">Minha criatividade é uma das minhas maiores forças,
-                 sempre buscando soluções inovadoras para os desafios que surgem. Além disso, possuo uma 
-                 habilidade natural para me comunicar de forma clara e eficaz, o que me permite trabalhar
-                  em equipe de maneira harmoniosa e produtiva. Estou ansiosa para colocar minhas habilidades 
-                  à disposição e alcançar novos patamares de sucesso em minha carreira. Acredito que, juntos, 
-                  oderemos alcançar resultados incríveis e impulsionar o crescimento da equipe e da empresa.
+                <div className="card-experience-info">Minha excepcional criatividade está intrinsecamente
+                 ligada à lógica. Sempre busco soluções inovadoras e imaginativas para os desafios que surgem,
+                  utilizando uma abordagem lógica e estruturada. Além disso, possuo uma habilidade natural para 
+                  me comunicar de forma clara e eficaz, o que me permite colaborar em equipe de maneira
+                   harmoniosa, produtiva e inspiradora. Estou ansiosa para colocar minhas habilidades interpessoais
+                     à disposição, impulsionando a colaboração e o sucesso em minha carreira.
+                     Acredito que, juntos, poderemos alcançar resultados incríveis e contribuir de forma notável
+                      para o crescimento da equipe e da empresa.
                 </div>
             </div>
+                <Download/>
             <Footer />
         </main>
+
+        
     );
 }
 

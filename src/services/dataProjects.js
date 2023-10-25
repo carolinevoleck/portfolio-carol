@@ -35,7 +35,7 @@ export const dataProjects = [
     },
     {
         id: 4,
-        name: 'Lading Page',
+        name: 'Landing Page',
         img: ladingPage,
         content: ['Dom'],
         deployLink: 'https://ill-store.surge.sh/',
